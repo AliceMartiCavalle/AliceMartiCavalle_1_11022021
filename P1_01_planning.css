@@ -1,0 +1,93 @@
+
+.wrapperColonne {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 20px;
+}
+.wrapperLigne {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-start;
+	text-align: center;
+	margin: 20px;
+}
+aside, #echeance {
+	width: 50%;
+}
+
+h1 {
+	font-size: 3em;
+	text-decoration: #AE17C4 wavy underline;
+}
+h2 {
+	font-size: 2em;
+	border : 2px solid rgba(174, 23, 196, .6);
+	padding: 10px;
+	outline: 3px solid rgba(174, 23, 196, 1);
+}
+
+table {
+	border : 2px solid black;
+	border-collapse: collapse;
+	width: 100%;
+}
+thead {
+	/*comment égaliser taille colonnes ?*/
+}
+thead th:nth-child(7) {
+	width: 16%;
+}
+td, th {
+	text-align: center;
+	padding: 10px;
+}
+
+
+caption {
+	text-align: left;
+	font-size: 1.3em;
+	padding: 0 0 10px 0;
+}
+th {
+	font-size: 1.2em;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: #AE17C4;
+	color: white;
+	border : 1px solid black;
+}
+td {
+	font-size: 1em;
+	background-color: rgba(174, 23, 196, .4);
+	border : 1px solid black;
+}
+tfoot tr td {
+	text-align: left;
+}
+
+figure {
+	padding: 0;
+	margin: 10px;
+}
+figcaption
+{
+	margin: 0;
+	background-color: rgba(174, 23, 196, .6)
+	color : rgba(174, 23, 196, 1);
+	text-align: center;
+}
+aside img {
+	height: 50%;
+	width: 30%;
+}
+aside img:hover {
+	outline : 1px solid rgba(174, 23, 196, 1);
+}
+
+/*page images*/
+#images img {
+	margin: 0 0 50px 0;
+}
